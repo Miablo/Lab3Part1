@@ -1,5 +1,5 @@
 /**
- * @author Cody Walker
+ * @author Cody Walker, Mio Diaz
  * @version 1.0
  */
 
@@ -18,7 +18,7 @@ public class MathEquation {
     }
 
     /**
-     * finds max and min z value for range of x
+     * finds max and min z value for range of x with corresponding y values
      */
     public void fun(){
         this.x = -100;
@@ -41,6 +41,9 @@ public class MathEquation {
            if(maxz < equationZ())
                this.maxz = equationZ();
         }while(this.x < 200);
-        System.out.print(this.minz + " <= Z <= " + this.maxz);
+        System.out.println("For |x-y| <= 200 and |2x+y-150| <= 250");
+        System.out.println("Gives us the range for x and y as, -100 <= x <= 200 and -166 <= y <= 266.");  //preconditions
+        System.out.print("For this range of x and y the range of Z is ");
+        System.out.print(this.minz + " <= Z <= " + this.maxz);  //post-conditions for Z
     }
 }

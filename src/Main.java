@@ -1,7 +1,8 @@
 /**
  *
  *
- * @author Mio Diaz,
+ * @author Mio Diaz, Cody Walker
+ * @version 1.0
  *
  */
 public class Main {
@@ -15,7 +16,5 @@ public class Main {
     public static void main(String[] args) {
         MathEquation mathequation = new MathEquation();
         mathequation.fun();
-        GUI gui = new GUI();
-        gui.createWindow();
     }
 }
