@@ -15,7 +15,7 @@ public class GUI extends JPanel {
         Graphics2D g1 = (Graphics2D) g;
         int width = getWidth();
         int height = getHeight();
-        g1.draw(new Line2D.Double(mar, mar,mar,mar-height));
+        g1.draw(new Line2D.Double(mar, mar,mar,height-mar));
         g1.draw(new Line2D.Double(mar,height-mar, width-mar, height-mar));
         g1.setPaint(Color.BLUE);
 

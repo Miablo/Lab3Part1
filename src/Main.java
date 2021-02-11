@@ -13,6 +13,8 @@ public class Main {
   to show the covered domain for x and y.
    */
     public static void main(String[] args) {
+        MathEquation mathequation = new MathEquation();
+        mathequation.fun();
         GUI gui = new GUI();
         gui.createWindow();
     }
